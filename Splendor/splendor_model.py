@@ -6,7 +6,6 @@
 
 # IMPORTS ------------------------------------------------------------------------------------------------------------#
 
-
 import random, itertools, copy
 from Splendor.splendor_utils import *
 from template import GameState, GameRule
