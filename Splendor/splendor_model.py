@@ -14,7 +14,6 @@ from template import GameState, GameRule
 
 # CLASS DEF ----------------------------------------------------------------------------------------------------------#       
 
-
 #Represents cards with a colour (str), unique code (str), resource costs (dict), deck ID (int), and points (int).
 class Card():
     def __init__(self, colour, code, cost, deck_id, points):
