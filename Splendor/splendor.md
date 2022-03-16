@@ -24,6 +24,7 @@
    * [Classical Planning](#Classical-Planning)
       * [Splendor as  Classical Planning](#splendor-as-classical-planning-with-pddl)
    * [Acknowledgements](#acknowledgements)
+   * 
   
 ## Introduction
 
