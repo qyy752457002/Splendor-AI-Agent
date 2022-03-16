@@ -20,7 +20,6 @@ BUYING_WEIGHT = [29.74592413781117, 1874.6563609868183, 481.36939659662386,
                  69.08843226142527, 12.78014858947157, 34.70924434152265,
                  129.5885142851314, -503.37694061210385, 17.83878233956241]
 
-
 # get information about a particular gem card
 def card_info(card):
     cards_info = [card.points]
@@ -30,7 +29,6 @@ def card_info(card):
             count += card.cost[color]
         cards_info.append(count)
     return np.array(cards_info)
-
 
 # get information about agent's reserved cards
 def get_reserveds(agent):
