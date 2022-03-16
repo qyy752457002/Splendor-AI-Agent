@@ -86,6 +86,8 @@ class Action_Type():
                                 'returned_gems': returned_gems,
                                 'noble': noble}
 
+                    
+                 
                     reward = self.calculate_reward(action)
 
                     if self.actions_rewards.get(reward):
