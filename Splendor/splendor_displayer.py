@@ -12,7 +12,6 @@ from   collections             import defaultdict
 from   Splendor.splendor_utils import *
 from   template                import Displayer
 
-
 # CLASS DEF ----------------------------------------------------------------------------------------------------------#
 
 
