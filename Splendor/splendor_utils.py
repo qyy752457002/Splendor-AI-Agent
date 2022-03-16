@@ -6,8 +6,8 @@
 
 # CONSTANTS ----------------------------------------------------------------------------------------------------------#
 
-
 #CARDS holds the colours, unique codes, gemstone costs, deck ID (1-3), and point totals of all 90 cards in the game.
+
 
 #        code : (colour, cost, deck_id, points)
 CARDS = {'1g1w1r1b': ('black', {'green': 1, 'white': 1, 'red': 1, 'blue': 1}, 1, 0),
