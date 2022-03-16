@@ -600,7 +600,5 @@ class myAgent(Agent):
         exploration_constant = 1/sqrt(2)
 
         MCTS_AI= MCTS(exploration_constant, game_state, self.id)
-
         best_action = MCTS_AI.get_action()
-
         return best_action
