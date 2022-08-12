@@ -27,7 +27,6 @@ def get_relative_distance(agent_buying_ability, card):
     return distance
 
 class Action_Type():
-
     def __init__(self, agent, opponent, board, potential_nobles, good_card, agent_buying_ability, relative_distance):
         self.agent = agent
         self.opponent = opponent
@@ -236,13 +235,11 @@ class Action_Type():
         return post_agent_buying_ability
 
 class State():
-
     def __init__(self, board, agents):
         self.board = board
         self.agents = agents
 
 class TreeNode():
-
     def __init__(self, agent_id, game_state, parent):
         self.game_state = game_state 
         self.parent = parent 
@@ -255,7 +252,6 @@ class TreeNode():
         self.enemy_terminate = (self.game_state.agents[1-agent_id].score >= 15)
 
 class MCTS():
-
     def __init__(self, exploration_constant, game_state, agent_id):
         self.exploration_constant = exploration_constant
         self.game_state = game_state
